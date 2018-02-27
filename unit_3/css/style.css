@@ -6,7 +6,7 @@ body {
 h1,p {
 	font-color: #778AAA;
 	font-family: "Tahoma";
-	position: "center";
+	text-align: 'center";
 }
 ul,li{
 	font-color: #E5E4F2;
