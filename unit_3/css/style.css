@@ -1,7 +1,7 @@
 body {
+	background-image: url("//github.com/ajaggersf/ajaggersf.github.io/blob/master/unit_3/Images/FishShasta.JPG");
 	background-color: #e6ebed;
 	background-position: center;
-	background-image: linear-gradient(#5d7b87,#e6ebed);
 }
 h1,p {
 	color: #90c9dd;
