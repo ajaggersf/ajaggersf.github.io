@@ -1,4 +1,13 @@
+
 body {
 	background-image: url("/Users/tjagger/Documents/Amy HTML Class/ajaggersf.github.io/unit_3/Images");
 	background-position: center;
+}
+h1,p {
+	font-color: #778AAA;
+}
+ul,li{
+	font-color: #E5E4F2;
+	font-style: normal;
+	font-family: "Courier";
 }
