@@ -1,5 +1,6 @@
 body {
-	background: #ffffff url("//github.com/ajaggersf/ajaggersf.github.io/blob/master/unit_3/Images/FishShasta.JPG");
+	background-image: url("//github.com/ajaggersf/ajaggersf.github.io/blob/master/unit_3/Images/FishShasta.JPG");
+	background-color: #ffffff;
 	background-position: center;
 }
 h1,p {
