@@ -4,12 +4,12 @@ body {
 	background-position: center;
 }
 h1,p {
-	font-color: #90c9dd;
+	color: #90c9dd;
 	font-family: "Tahoma";
 	text-align: center;
 }
 ul,li{
-	font-color: #E5E4F2;
+	color: #E5E4F2;
 	font-style: normal;
 	font-family: "Courier";
 }
