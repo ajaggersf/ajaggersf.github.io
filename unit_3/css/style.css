@@ -9,6 +9,7 @@ body {
 h1,p {
 	color: #90c9dd;
 	font-family: "Tahoma";
+	font-size: 20px;
 	text-align: center;
 }
 ul,li{
