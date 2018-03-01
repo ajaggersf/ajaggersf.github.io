@@ -1,7 +1,9 @@
 body {
-	background-image: url("images/fishshasta.JPG");
+	background-image: url("../Images/FishShasta.JPG");
 	background-color: #e6ebed;
-	background-position: center;
+	background-position:center;
+	background-repeat:no-repeat;
+	
 }
 h1,p {
 	color: #90c9dd;
