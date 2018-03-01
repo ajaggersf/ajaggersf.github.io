@@ -2,6 +2,7 @@ body {
 	background-image: url("../Images/FishShasta.JPG");
 	background-color: #e6ebed;
 	background-position: center;
+	background-repeat:no-repeat;
 	rotation-point:50% 50%;
 	rotation:90deg;
 	
