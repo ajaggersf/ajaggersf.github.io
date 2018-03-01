@@ -1,5 +1,5 @@
 body {
-	background-image: url("../Images/FishShasta.JPG");
+	background-image: url("../Images/FishShasta.JPG") ocapity: 0.5;
 	background-color: #e6ebed;
 	background-position:center;
 	background-repeat:no-repeat;
