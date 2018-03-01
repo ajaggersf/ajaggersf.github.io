@@ -1,9 +1,10 @@
 body {
-	background-image: url("../Images/FishShasta.JPG") ocapity: 0.5;
+	background-image: url("../Images/FishShasta.JPG");
+	background-ocpa
 	background-color: #e6ebed;
 	background-position:center;
 	background-repeat:no-repeat;
-	rotation:90deg;
+	opacity: 0.5;
 	
 }
 h1,p {
