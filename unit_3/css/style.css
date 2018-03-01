@@ -4,6 +4,7 @@ body {
 	background-attachment: fixed;
 	background-position:center;
 	background-repeat:no-repeat;
+	margin-top: 100px;
 	
 }
 h1,p {
@@ -15,5 +16,5 @@ ul,li{
 	color: #ffeead;
 	font-style: normal;
 	font-family: "Helvetica";
-	position: Absolute;
+	margin-left: 80px;
 }
