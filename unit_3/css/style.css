@@ -1,17 +1,20 @@
 body {
 	background-image: url("../images/riverupdate.jpg");
 	background-color: #e6ebed;
+	background-attachment: fixed;
 	background-position:center;
 	background-repeat:no-repeat;
-	
+	margin-top: 250px;	
 }
 h1,p {
 	color: #90c9dd;
 	font-family: "Tahoma";
+	font-size: 20px;
 	text-align: center;
 }
 ul,li{
-	color: #111111;
+	color: #ffeead;
 	font-style: normal;
-	font-family: "Courier";
+	font-family: "Helvetica";
+	margin-left: 80px;
 }
