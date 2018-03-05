@@ -20,7 +20,7 @@ ul,li{
 	font-family: "Helvetica";
 	margin-left: 80px;
 }
-/*ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -41,8 +41,7 @@ li a {
     color: #ffeead;
 }
 
-/* Change the link color to #111 (black) on hover
+/* Change the link color to #111 (black) on hover*/
 li a:hover {
     background-color: #111111;
 }
-*/
