@@ -24,8 +24,6 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
-    font-family: "Helvetica"
-    color: #ffeead;
 }
 
 li {
@@ -38,6 +36,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: "Helvetica"
+    color: #ffeead;
 }
 
 /* Change the link color to #111 (black) on hover */
