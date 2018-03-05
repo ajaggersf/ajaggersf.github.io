@@ -1,0 +1,47 @@
+body {
+	background-image: url("../images/riverupdate.jpg");
+	background-color: #e6ebed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	margin-top: 250px;
+	
+}
+h1,p {
+	color: #90c9dd;
+	font-family: "Tahoma";
+	text-align: center;
+	font-size: 20px;
+
+}
+ul,li{
+	color: #bbb9d7;
+	font-style: normal;
+	font-family: "Helvetica";
+	margin-left: 80px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B8B9D7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Helvetica"
+    color: #ffeead;
+}
+
+/* Change the link color to #111 (black) on hover*/
+li a:hover {
+    background-color: #111111;
+}
