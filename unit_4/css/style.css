@@ -5,7 +5,8 @@ body {
 	background-repeat:no-repeat;
 	background-attachment: fixed;
 	margin-top: 300px;
-	
+    margin-left: auto;
+    margin-right: auto;
 }
 h1,p {
 	color: #90c9dd;
