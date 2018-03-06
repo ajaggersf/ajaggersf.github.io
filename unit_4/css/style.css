@@ -1,5 +1,5 @@
 body {
-	background-image: url("../images/riverupdate.jpg");
+	background-image: url("../images/riverupdate2.jpg");
 	background-color: #e6ebed;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -29,7 +29,7 @@ ul {
     background-color: #B8B9D7;
     position: fixed;
     top: 0;
-    width: 80%;
+    width: 100%;
 }
 li {
     display: block;
