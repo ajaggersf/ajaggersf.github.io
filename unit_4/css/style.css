@@ -14,12 +14,6 @@ h1,p {
 	font-size: 20px;
 
 }
-ul,li{
-	color: #000000;
-	font-style: normal;
-	font-family: "Helvetica";
-	margin-left: 80px;
-}
 ul {
     list-style-type: none;
     margin: 0;
@@ -30,18 +24,17 @@ ul {
     top: 0;
     width: 80%;
 }
-
-li a {
+li {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px;
     text-decoration: none;
     font-family: "Helvetica"
     color: #000000;
 }
 
 /* Change the link color to #111 (black) on hover*/
-li a:hover {
+li :hover {
     background-color: #111111;
 }
