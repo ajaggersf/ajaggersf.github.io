@@ -4,9 +4,8 @@ body {
 	background-position:center;
 	background-repeat:no-repeat;
 	background-attachment: fixed;
-	margin-top: 300px;
-    margin-left: auto;
-    margin-right: auto;
+	margin-top: 300em;
+	
 }
 h1,p {
 	color: #90c9dd;
@@ -14,6 +13,12 @@ h1,p {
 	text-align: center;
 	font-size: 20px;
 
+}
+ul,li{
+	color: #000000;
+	font-style: normal;
+	font-family: "Helvetica";
+	margin-left: 80px;
 }
 ul {
     list-style-type: none;
@@ -23,7 +28,7 @@ ul {
     background-color: #B8B9D7;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 80%;
 }
 
 li a {
