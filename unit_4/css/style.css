@@ -17,7 +17,7 @@ h1,p {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     overflow: hidden;
     background-color: #B8B9D7;
     position: fixed;
@@ -27,11 +27,10 @@ ul {
 li {
     display: block;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 8px;
     text-decoration: none;
     font-family: "Helvetica"
-    color: #000000;
 }
 
 /* Change the link color to #111 (black) on hover*/
