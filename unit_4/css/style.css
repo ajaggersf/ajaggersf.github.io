@@ -27,7 +27,8 @@ ul {
 li {
     display: block;
     color: white;
-    text-align: left;
+    text-align: center;
+    float: left;
     padding: 8px;
     text-decoration: none;
     font-family: "Helvetica"
