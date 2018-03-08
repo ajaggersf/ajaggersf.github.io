@@ -21,7 +21,7 @@ p {
     color: #ACD0DE;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    font-size: 25px;
+    font-size: 30px;
 
 }
 ul {
@@ -47,4 +47,4 @@ li {
 /* Change the link color to #111 (black) on hover*/
 li :hover {
     background-color: #111111;
-}link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"
+}
