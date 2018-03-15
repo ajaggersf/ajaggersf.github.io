@@ -21,7 +21,7 @@ header {
 
 
 }
-.one {
+p {
     color: #ACD0DE;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
@@ -59,4 +59,5 @@ footer {
     background-color: #FF957E;
     border: 1px black solid;
     padding: 20px;
+    text-align: center;
 }
