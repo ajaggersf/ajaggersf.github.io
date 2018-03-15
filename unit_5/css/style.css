@@ -10,21 +10,25 @@ body {
 	margin-top: 20em;
 	
 }
-h1 {
+header {
 	color: #90c9dd;
 	font-family: 'Michroma', sans-serif;
 	text-align: center;
 	font-size: 50px;
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+
 
 }
-p {
+.one {
     color: #ACD0DE;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
 
 }
-ul {
+nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -33,6 +37,9 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
 }
 li {
     display: block;
@@ -47,4 +54,9 @@ li {
 /* Change the link color to #111 (black) on hover*/
 li :hover {
     background-color: #111111;
+}
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
 }
