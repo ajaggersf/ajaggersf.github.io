@@ -26,6 +26,9 @@ p {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
 
 }
 nav {
