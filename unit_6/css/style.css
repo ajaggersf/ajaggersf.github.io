@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Michroma);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
+body {
+	background-image: url("../images/fishshasta2.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	margin-top: 20em;
+	
+}
+header {
+	color: #90c9dd;
+	font-family: 'Michroma', sans-serif;
+	text-align: center;
+	font-size: 50px;
+    top-padding: 20px;
+
+}
+p {
+    color: black;
+    text-align: right;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+h2 {
+    color: black;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+
+}
+section {
+    padding: 20px;
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #90DDBE;
+    border: 1px black solid;
+    padding: 20px;
+}
+li {
+    display: block;
+    color: black;
+    text-align: center;
+    float: left;
+    padding: 8px;
+    text-decoration: none;
+    font-family: "Helvetica"
+}
+li:hover {
+    background-color: #90c9dd;
+}
+
+#two_column {
+    border: 1px black solid;
+    padding: 20px;
+}
+#left {
+    padding: 20px;
+    background-color: #90c9dd ;
+    padding: 20px;
+    float: left;
+    width: 25%;
+    color: white;
+}
+
+#right {
+    padding: 20px;
+    float: right;   
+    width: 65%;
+    background-color: #DDA490;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+footer {
+    background-color: #90DDBE;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+}
