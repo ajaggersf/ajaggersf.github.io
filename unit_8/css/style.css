@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Michroma);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
+
+body {
+	background-image: url("../images/fishcrop1.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+    background-color: #DDA490;
+	margin-top: 12em;
+	
+}
+header {
+	color: #90c9dd;
+	font-family: 'Michroma', sans-serif;
+	text-align: center;
+	font-size: 3em;
+}
+h1 {
+    padding-bottom: 2em;
+}
+p {
+    color: black;
+    text-align: right;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+}
+h2 {
+    color: black;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+
+}
+#season {
+    top-padding: 5em;
+}
+div {
+    padding:3em;
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 2em;
+    background-color: #DDA490;
+}
+li {
+    display: block;
+    color: black;
+    font-size: 1.4em;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    float: left;
+    padding: .5em;
+    text-decoration: none;
+    font-family: "Helvetica"
+}
+li:hover {
+    background-color: #90c9dd;
+}
+
+#left {
+    top-padding: 1em;
+    padding: 2em;
+    background-color: #90c9dd ;
+    float: left;
+    width: 25%;
+}
+
+#right {
+    padding: 1em;
+    float: right; 
+    text-align: center;  
+    width: 65%;
+    background-color: white;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+footer {
+    background-color: #90DDBE;
+    margin-top: 2em;
+    padding: 1.5em;
+    text-align: center;
+}
