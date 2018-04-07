@@ -92,14 +92,16 @@ footer {
     text-align: center;
 }
 
-@media only screen and (max-width: 800px) {
-  nav {
-    float: none;
-  } 
-  nav {
-    float: none;
+@media only screen and (max-width: 800px){
+
+section, div {
+    width: 100%;
+    padding: .6em;
   }
-  nav a {
-      margin: 0 1.6em .75em 0;
-  }
-  
+  body {
+    background-color: #DDA490;  
+    }
+img {
+    width: 480;
+}
+}  
