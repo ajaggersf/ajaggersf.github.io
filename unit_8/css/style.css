@@ -97,14 +97,14 @@ nav{
     display: block;
     text-align: center;
 }
+h1 {
+    font-size: 1em;
+}
 section, div {
-    width: 100%;
+    width: 80%;
     padding: .6em;
 }
   body {
     background-color: #DDA490;  
-}
-img {
-    width: 480;
 }
 }  
