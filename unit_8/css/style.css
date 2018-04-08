@@ -92,7 +92,7 @@ footer {
     text-align: center;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 990px){
 nav{
     display: block;
     text-align: center;
@@ -100,11 +100,36 @@ nav{
 h1 {
     font-size: 1em;
 }
+li {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+}
+#left {
+    float: none;
+    font-size: 1.4em;
+    width: 100%;
+    text-align: center
+    padding: .5em;
+  }
+#right {
+    float: none;
+    font-size: 1.4em;
+    width: 100%;
+    padding: .5em;
+    text-align: center;
+  }
+  h2,p{
+    font-size: .8em;
+  }
 section, div {
-    width: 80%;
+    width: 100%;
     padding: .6em;
+    text-align: center;
 }
   body {
     background-color: #DDA490;  
+    background-image: none;
+    margin-top: 4em;
 }
 }  
