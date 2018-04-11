@@ -2,11 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
 
 body {
-	background-image: url("../images/fishshasta2.jpg");
+	background-image: url("../images/fishshasta.jpg");
 	background-position:center;
 	background-repeat:no-repeat;
 	background-attachment: fixed;
-	margin-top: 20em;
+    background-color: #DDA490;
+	margin-top: 17em;
 	
 }
 header {
@@ -31,7 +32,7 @@ h2 {
 
 }
 section {
-    padding: 20px;
+    padding: 40px;
 }
 nav {
     list-style-type: none;
@@ -42,7 +43,6 @@ nav {
     top: 0;
     width: 100%;
     background-color: #90DDBE;
-    border: 1px black solid;
     padding: 20px;
 }
 li {
@@ -58,24 +58,37 @@ li:hover {
     background-color: #90c9dd;
 }
 
-#two_column {
+#4col {
     border: 1px black solid;
-    padding: 20px;
+    padding: 40px;
 }
 #left {
     padding: 20px;
     background-color: #90c9dd ;
-    padding: 20px;
     float: left;
     width: 25%;
-    color: white;
 }
 
 #right {
     padding: 20px;
     float: right;   
     width: 65%;
-    background-color: #DDA490;
+    background-color: white;
+}
+
+#left2 {
+    padding: 20px;
+    background-color: #90c9dd ;
+    float: left;
+    width: 25%;
+    color: white;
+}
+
+#right2 {
+    padding: 20px;
+    float: right;   
+    width: 65%;
+    background-color: white;
 }
 
 .clearfix:after {
