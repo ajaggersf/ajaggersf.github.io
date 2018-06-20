@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Monk's Cafe</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<h1>Monk's Cafe</h1>
+	<h2>"The Coffee Shop"</h2>
+	<img src="images/toms-restaurant.jpg" alt="Toms">
+
+
+<section class="rezContainer">
+	<h1>Reservations</h1>
+
+  <div class="new">
+    <h2>Make A Reservation</h2>
+	<form action="">
+		<input id="name" type="text" placeholder="name">
+		<input id="day" type="text" placeholder="day">
+		<button type="submit">Confirm</button>
+	</form>	
+</div>
+
+ <div class="list">
+ <h2>Existing Reservations</h2>
+
+	<ul class="reservation">
+	 <script id="newReservation" type="text/x-handlebars-template">
+ 	<li>{{name}} - ${{day}}</li>
+  	</script> 
+	</ul>
+</div>
+</section>
+
+<!--map & location -->
+<section class="location">
+	<h1>Come Dine with Us</h1>
+	<div id="map" class="map" style="height:100vh"></div>
+</section>
+
+<section class="reviews">
+	<h1>Customer Reviews</h1>
+	<img src="images/jerry.jpg" alt="Jerry">
+	<p>“Big lettuce, big carrots, tomatoes like volleyballs."— Jerry Seinfeld, on The BIG Salad</p>
+</section>
+
+	<script src="js/jquery-3.0.0.js"></script>
+	<script src="js/handlebars-v4.0.5.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDbt1M_Y1NT5NIZ27O1y0L-PXT5-bEIjs" async defer></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body {
+	text-align: center; 
+  height: 1000px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-color: #00F;
+}
+
+.rezContainer {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.new {
+    width: 45%;
+    height: 200px;
+    float: left;
+    border-style: double;
+}
+.list {
+    width: 45%;
+    height: 200px;
+    float: right;
+    border-style: double;
+}
+
+.location{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.reviews {
+  width: 90%;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 500px;
+}
+
+
+p {
+  font-size: 30px;
+  font-style: italic;
+  color: #100442;
+  font-weight: bold;
+}
+
+button {
+  font-family: "Roboto", "Merriweather", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color:: #f3f2f7;
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 300px;
+  margin: 30px auto;
+  padding: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 4px;
+  outline: 0;
+  background-color: #b5ccba;
+}
+
+input {
+  border-radius: 4px;
+  padding: 8px 10px;
+  border: 2px solid #D7D7D7;
+  margin: 8px;
+  font-size: 14px;
+}
+
+input:last-of-type {
+  width: 87px;
+}
+
+input:focus {
+  outline: none;
+}
+
+ .map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+
+
